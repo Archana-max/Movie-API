@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>MOVIE API</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header py-3">
+                <a class="navbar-brand" href="index.html">MOVIE INFORMATION API</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h4 class="text-center">Search for any Movie Information</h4>
+            <form id="searchForm" class="text-center">
+                <input type="text" id="searchText" placeholder="Search Movies here" onblur="getValue(this.value)">
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="movies" class="row">
+        </div>
+    </div>
+    
+</body>
+
+</html>

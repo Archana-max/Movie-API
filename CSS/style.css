@@ -1,0 +1,64 @@
+.container.navbar-header a{
+    text-align: center;
+}
+#searchForm input{
+    width:60vw;
+    justify-content: center!important;
+    height:5vh;
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.2rem;
+  
+}
+.list-group-item{
+    border:none;
+}
+
+#movieInfo h3,.well h3{
+text-decoration: underline;
+}
+h3 ~p{
+    font-size: 1.2rem;
+}
+.well {
+    text-align: center;
+}
+@media(max-width:600px){
+   
+    #movie img,#movies img {
+        width:70%;
+    }
+
+    #movieInfo{
+        text-align: center;
+    }
+
+    #movieInfo h3{
+        margin-top:2rem;
+    }
+
+}
+
+@media(min-width:772px){
+   
+    #movie img,#movies img {
+        width:100%;
+    }
+
+    .well h3{
+        margin-top:3rem;
+        text-align: center;
+        
+    }
+
+    h3 ~p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #movieInfo h3{
+        margin-top:2rem;
+    }
+
+}
