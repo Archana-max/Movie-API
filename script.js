@@ -75,7 +75,7 @@ function getMovie(){
         
      <p> ${movieInfo.Plot}</p>
     
-     <a href="index.html" class="btn btn-danger">Go to Search</a>
+     <a href="index.html" class="btn btn-danger">Go back to Search</a>
 
 
         </div>
