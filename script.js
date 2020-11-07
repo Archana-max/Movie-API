@@ -20,7 +20,6 @@ function getValue(searchText){
             </div>
             </div>`;
         });
-
        // console.log(output);
         document.getElementById("movies").innerHTML=output;
 
