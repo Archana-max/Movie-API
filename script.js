@@ -26,9 +26,8 @@ function getValue(searchText){
        }
    }
 
-xhttp.open("GET",'http://www.omdbapi.com/?s=' +searchText+ '&apikey=15487c0a',true);
+xhttp.open("GET",'https://www.omdbapi.com/?s=' +searchText+ '&apikey=15487c0a',true);
 xhttp.send();
-
 }
 
 function movieSelected(id){
@@ -88,7 +87,7 @@ document.querySelector("#movieInfo").innerHTML=output;
 
    }
 
-   xhttp1.open("GET",'http://www.omdbapi.com/?i=' + movieId + '&apikey=15487c0a',true);
+   xhttp1.open("GET",'https://www.omdbapi.com/?i=' + movieId + '&apikey=15487c0a',true);
    xhttp1.send();
 
 }
